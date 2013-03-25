@@ -13,6 +13,7 @@ group :development, :test do
   gem 'minitest-rails-capybara'
 end
 
+gem 'mongoid'
 gem 'jquery-rails'
 
 
