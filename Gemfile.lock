@@ -47,9 +47,12 @@ GEM
       execjs
     coffee-script-source (1.6.2)
     colorize (0.5.8)
+    database_cleaner (0.9.1)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    fabrication (2.6.0)
+    ffaker (1.15.0)
     ffi (1.5.0)
     gherkin-ruby (0.2.1)
     hike (1.2.1)
@@ -154,6 +157,9 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  database_cleaner
+  fabrication
+  ffaker
   jquery-rails
   minitest-rails-capybara
   mongoid

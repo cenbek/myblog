@@ -13,6 +13,12 @@ group :development, :test do
   gem 'minitest-rails-capybara'
 end
 
+group :test do
+  gem 'database_cleaner'
+  gem 'fabrication'
+  gem 'ffaker'
+end
+
 gem 'mongoid'
 gem 'jquery-rails'
 
