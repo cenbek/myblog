@@ -61,6 +61,16 @@ module Myblog
 
     # Enable the asset pipeline
     config.assets.enabled = true
+    
+    config.generators.assets = false
+    config.generators.helper = false 
+    
+    config.generators do |g|
+      g.test_framework :mini_test, :spec => true
+      #g.fixture_replacement :fabrication, dir: "test/fabricators"
+      g.integration_tool :mini_test
+    end
+  
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'

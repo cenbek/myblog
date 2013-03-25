@@ -10,6 +10,7 @@ end
 
 group :development, :test do
   gem 'spinach-rails'
+  gem 'minitest-rails-capybara'
 end
 
 gem 'jquery-rails'

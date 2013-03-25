@@ -64,6 +64,20 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.21)
+    minitest (4.7.0)
+    minitest-capybara (0.1.0)
+      capybara (>= 1.0)
+      minitest-matchers (>= 1.2)
+    minitest-matchers (1.2.0)
+      minitest (>= 2.5.0)
+    minitest-rails (0.5.2)
+      minitest (~> 4.0)
+      rails (>= 3.0)
+    minitest-rails-capybara (0.5.1)
+      capybara (~> 2.0)
+      minitest-capybara (~> 0.1)
+      minitest-matchers (>= 1.2)
+      minitest-rails (~> 0.5)
     multi_json (1.7.2)
     nokogiri (1.5.6)
     polyglot (0.3.3)
@@ -134,6 +148,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
+  minitest-rails-capybara
   rails (= 3.2.12)
   sass-rails (~> 3.2.3)
   spinach-rails
